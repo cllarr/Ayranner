@@ -8,7 +8,7 @@ public class DusmanOldurucu : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Dusman"))
         {
-            Destroy(collision.gameObject); //optimizasyon için
+            Destroy(collision.gameObject); //optimizasyon icin
         }
     }
 }
