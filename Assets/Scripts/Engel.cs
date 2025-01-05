@@ -4,17 +4,43 @@ using UnityEngine;
 
 public class Engel : MonoBehaviour
 {
-    float hiz = 10f; //mevcut h�z
+    float hiz = 10f; // mevcut hız
 
     public void hizAyarla(float newHiz)
     {
-        hiz = newHiz; //yeni h�z
+        try
+        {
+            // Hız negatif veya çok büyük bir değer olursa uyarı loglanabilir.
+            if (newHiz < 0 || newHiz > 100)
+                throw new System.ArgumentOutOfRangeException("newHiz", "Hız 0 ile 100 arasında olmalıdır!");
+
+            hiz = newHiz; // yeni hız
+        }
+        catch (System.ArgumentOutOfRangeException e)
+        {
+            Debug.LogError($"Hatalı hız değeri: {e.Message}");
+        }
+        catch (System.Exception e)
+        {
+            Debug.LogError($"Hız ayarlanırken beklenmeyen bir hata oluştu: {e.Message}");
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(hiz); //h�z� g�ster
-        transform.Translate(Vector3.left * Time.deltaTime * hiz); //objeler h�zla orant�l� sola do�ru hareket edecek
+        try
+        {
+            Debug.Log(hiz); // hızı göster
+            if (hiz == 0)
+                throw new System.Exception("Hız sıfır olamaz, obje hareket etmeyecek!");
+
+            // objeler hızla orantılı sola doğru hareket edecek
+            transform.Translate(Vector3.left * Time.deltaTime * hiz);
+        }
+        catch (System.Exception e)
+        {
+            Debug.LogError($"Update sırasında hata oluştu: {e.Message}");
+        }
     }
 }
