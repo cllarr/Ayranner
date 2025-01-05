@@ -1,0 +1,378 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.54f1 (129125d4e700) revision 1216805'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'tr' Physical Memory: 16088 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.54f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/Acer/Desktop/RunnerTech/RunnerTech
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+58373
+Successfully changed project path to: C:/Users/Acer/Desktop/RunnerTech/RunnerTech
+C:/Users/Acer/Desktop/RunnerTech/RunnerTech
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [16508]  Target information:
+
+Player connection [16508]  * "[IP] 192.168.235.3 [Port] 0 [Flags] 2 [Guid] 1313766127 [EditorId] 1313766127 [Version] 1048832 [Id] WindowsEditor(7,iso-pc) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [16508] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [16508] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+Refreshing native plugins compatible for Editor in 14.64 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.54f1 (129125d4e700)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.54f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Acer/Desktop/RunnerTech/RunnerTech/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Ti Laptop GPU (ID=0x25a0)
+    Vendor:   NVIDIA
+    VRAM:     3962 MB
+    Driver:   32.0.15.6636
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.54f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.54f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.54f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56608
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.54f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007728 seconds.
+- Loaded All Assemblies, in  0.486 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.495 seconds
+Domain Reload Profiling: 980ms
+	BeginReloadAssembly (153ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (82ms)
+	LoadAllAssembliesAndSetupDomain (190ms)
+		LoadAssemblies (150ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (188ms)
+			TypeCache.Refresh (186ms)
+				TypeCache.ScanAssembly (166ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (496ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (421ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (298ms)
+			ProcessInitializeOnLoadMethodAttributes (92ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.001 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.101 seconds
+Domain Reload Profiling: 2096ms
+	BeginReloadAssembly (221ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (59ms)
+	LoadAllAssembliesAndSetupDomain (653ms)
+		LoadAssemblies (530ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (256ms)
+			TypeCache.Refresh (214ms)
+				TypeCache.ScanAssembly (184ms)
+			ScanForSourceGeneratedMonoScriptInfo (31ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1101ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (877ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (90ms)
+			ProcessInitializeOnLoadAttributes (715ms)
+			ProcessInitializeOnLoadMethodAttributes (48ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 13.43 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3981 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (57.8 KB). Loaded Objects now: 4453.
+Memory consumption went from 143.3 MB to 143.3 MB.
+Total: 7.801600 ms (FindLiveObjects: 0.657900 ms CreateObjectMapping: 0.296600 ms MarkObjects: 6.507700 ms  DeleteObjects: 0.334400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 45108.059028 seconds.
+  path: Assets/kenney_shape-characters/PNG/Default/facial_part_mouth_angry.png
+  artifactKey: Guid(886cd1b5cd8dd5d4a93aa7d862ed76a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_shape-characters/PNG/Default/facial_part_mouth_angry.png using Guid(886cd1b5cd8dd5d4a93aa7d862ed76a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '448c99fc3c3ae2d5df6c564fa764dba0') in 0.152599 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.450891 seconds.
+  path: Assets/kenney_shape-characters/PNG/Default/green_hand_peace.png
+  artifactKey: Guid(9cfcf00228e6aee4baaf25eeac43c670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_shape-characters/PNG/Default/green_hand_peace.png using Guid(9cfcf00228e6aee4baaf25eeac43c670) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'd1a8d223081d98d51b388d15b8b520d4') in 0.029889 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.004493 seconds.
+  path: Assets/kenney_shape-characters/PNG/Default/hand_yellow_open.png
+  artifactKey: Guid(9695817f633dc2f49a08d36991a2ee17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_shape-characters/PNG/Default/hand_yellow_open.png using Guid(9695817f633dc2f49a08d36991a2ee17) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '1ecf6ecc838f053523266719d6488700') in 0.021129 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.008542 seconds.
+  path: Assets/kenney_shape-characters/PNG/Default/hand_yellow_rock.png
+  artifactKey: Guid(071f7e55207c6634cb8095fb423762cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_shape-characters/PNG/Default/hand_yellow_rock.png using Guid(071f7e55207c6634cb8095fb423762cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'e5e917157df0f17e947c26030d73819f') in 0.023151 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.380294 seconds.
+  path: Assets/kenney_shape-characters/PNG/Default/pink_body_circle.png
+  artifactKey: Guid(88937faf61738e5429b586766e7afd89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_shape-characters/PNG/Default/pink_body_circle.png using Guid(88937faf61738e5429b586766e7afd89) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '10f13f3b7132664f0a1dfbdb8c497c58') in 0.020185 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.005343 seconds.
+  path: Assets/kenney_shape-characters/PNG/Default/pink_body_squircle.png
+  artifactKey: Guid(4515710502aa6284ca0146ffd534dca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_shape-characters/PNG/Default/pink_body_squircle.png using Guid(4515710502aa6284ca0146ffd534dca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '9780346031976fc34d8216a59264e798') in 0.017683 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.008724 seconds.
+  path: Assets/kenney_shape-characters/PNG/Default/pink_hand_peace.png
+  artifactKey: Guid(65a3232fed3ad5e4982e5caa7f95e194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_shape-characters/PNG/Default/pink_hand_peace.png using Guid(65a3232fed3ad5e4982e5caa7f95e194) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '941e41752489254317cecc742c24b0db') in 0.017750 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.128056 seconds.
+  path: Assets/kenney_shape-characters/PNG/Default/purple_body_circle.png
+  artifactKey: Guid(30dc9f42d70b1ce499bc487668a5744e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_shape-characters/PNG/Default/purple_body_circle.png using Guid(30dc9f42d70b1ce499bc487668a5744e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'ba76f7ca295abbf2691ddf604e49888b') in 0.020055 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.006136 seconds.
+  path: Assets/kenney_shape-characters/PNG/Default/purple_hand_closed.png
+  artifactKey: Guid(88fa95444b1788744bad24acd3e3eab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_shape-characters/PNG/Default/purple_hand_closed.png using Guid(88fa95444b1788744bad24acd3e3eab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '93500ad43410e1c5e3d07e4bb3a2eab8') in 0.019623 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.044851 seconds.
+  path: Assets/kenney_shape-characters/PNG/Default/red_body_circle.png
+  artifactKey: Guid(ddaf5c23d05bb284bb6dc69629bc425a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_shape-characters/PNG/Default/red_body_circle.png using Guid(ddaf5c23d05bb284bb6dc69629bc425a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'cf10d54fa81e540b5e6988737fd7848e') in 0.022183 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.006037 seconds.
+  path: Assets/kenney_shape-characters/PNG/Default/red_hand_closed.png
+  artifactKey: Guid(40770da150f91b64dbf198a2796e51f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_shape-characters/PNG/Default/red_hand_closed.png using Guid(40770da150f91b64dbf198a2796e51f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '4097a68362b6a78d87a6551aa1197657') in 0.029370 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.037867 seconds.
+  path: Assets/kenney_shape-characters/PNG/Default/red_hand_rock.png
+  artifactKey: Guid(154dd1babdd52c840b1ef07a44c16511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_shape-characters/PNG/Default/red_hand_rock.png using Guid(154dd1babdd52c840b1ef07a44c16511) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '2069178e4ebfbd5ed15e3f0bde3950c2') in 0.038009 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.193865 seconds.
+  path: Assets/kenney_shape-characters/PNG/Default/shadow.png
+  artifactKey: Guid(41cde4bffa6948e41920d851e6a95117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_shape-characters/PNG/Default/shadow.png using Guid(41cde4bffa6948e41920d851e6a95117) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'c4793380e54852e499c41fce1c6a2849') in 0.031249 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000915 seconds.
+  path: Assets/kenney_shape-characters/PNG/Default/tile_background_grass.png
+  artifactKey: Guid(3b33c2a5cdc810445a5e24130cc0e7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_shape-characters/PNG/Default/tile_background_grass.png using Guid(3b33c2a5cdc810445a5e24130cc0e7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '9f4aeb7da0031d22e1f38d0667092fe1') in 0.039441 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.003195 seconds.
+  path: Assets/kenney_shape-characters/PNG/Default/tile_background_tree_small.png
+  artifactKey: Guid(6e5d7307a1078974ca6aea21b10c6535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_shape-characters/PNG/Default/tile_background_tree_small.png using Guid(6e5d7307a1078974ca6aea21b10c6535) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '9ad0452975d536a93c86873d725c8167') in 0.036724 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.003472 seconds.
+  path: Assets/kenney_shape-characters/PNG/Default/tile_coin.png
+  artifactKey: Guid(85323a0e032ac754eac9d720d5e74661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_shape-characters/PNG/Default/tile_coin.png using Guid(85323a0e032ac754eac9d720d5e74661) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'cde65996ccdaa9588d610c14170d1eca') in 0.040987 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.033207 seconds.
+  path: Assets/kenney_shape-characters/PNG/Default/tile_half.png
+  artifactKey: Guid(2b0934e018507734daa01eb69e27a2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_shape-characters/PNG/Default/tile_half.png using Guid(2b0934e018507734daa01eb69e27a2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '553623a60a9c73cab8e0116c46c7d6b1') in 0.035831 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.015346 seconds.
+  path: Assets/kenney_shape-characters/PNG/Default/tile_left.png
+  artifactKey: Guid(02abfcc8a9b64aa459039e154004b0b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_shape-characters/PNG/Default/tile_left.png using Guid(02abfcc8a9b64aa459039e154004b0b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'a5d6b6dbd15516d2caf9a349214c0154') in 0.038810 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.045337 seconds.
+  path: Assets/kenney_shape-characters/PNG/Default/yellow_body_rhombus.png
+  artifactKey: Guid(795a09666c706e245b0b656f21920cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_shape-characters/PNG/Default/yellow_body_rhombus.png using Guid(795a09666c706e245b0b656f21920cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '7fc537b854e0ab33bf2b792e52912d51') in 0.031526 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.003400 seconds.
+  path: Assets/kenney_shape-characters/PNG/Default/yellow_body_squircle.png
+  artifactKey: Guid(60b321d53d2e70f4fb6d14bbba80c380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_shape-characters/PNG/Default/yellow_body_squircle.png using Guid(60b321d53d2e70f4fb6d14bbba80c380) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '556f8c5edfa95ec7cdec7848e3765d2e') in 0.034813 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
